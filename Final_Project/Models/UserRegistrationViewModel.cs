@@ -4,6 +4,7 @@ namespace Final_Project.Models
 {
     public class UserRegistrationViewModel
     {
+        // ViewModel used for handling user registration data from the UI
         [Required]
         public string FirstName { get; set; }
         [Required]
