@@ -101,3 +101,4 @@ namespace Final_Project.Controllers
 
 // adding a new comment.
 
+// Updated the analytics controller.
