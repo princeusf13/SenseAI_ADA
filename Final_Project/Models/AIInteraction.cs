@@ -6,12 +6,12 @@ namespace Final_Project.Models
     public class AIInteraction
     {
         [Key]
-        public int InteractionID { get; set; }
+        public int InteractionID { get; set; }  // Unique ID for each AI interaction
 
         
         [Required]
-        public string UserId { get; set; }
-        public virtual ApplicationUser? User { get; set; }
+        public string UserId { get; set; }  // Stores the ID of the user who interacted with the AI
+        public virtual ApplicationUser? User { get; set; }  // Navigation property to access user details
 
         // Relationship to the Course Topic 
         // (Since Topic is linked to Course, we only need TopicID to find both)
