@@ -19,3 +19,5 @@ namespace Final_Project.Models
         public virtual ICollection<CourseTopic> CourseTopics { get; set; } = new List<CourseTopic>();
     }
 }
+// Added description
+// new comment
