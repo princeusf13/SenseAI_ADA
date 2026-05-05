@@ -20,7 +20,7 @@ namespace Final_Project.Models
         public virtual CourseTopic? Topic { get; set; }
 
         public DateTime InteractionDate { get; set; } = DateTime.Now;
-
+        // Stores when the interaction happened (default = current date/time)
         // Optional: We can track the specific Material/Assignment that triggered the session
         public int? MaterialID { get; set; }
         public virtual Material? Material { get; set; }
