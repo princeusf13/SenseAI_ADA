@@ -17,3 +17,4 @@ namespace Final_Project.Models
         public string Category { get; set; } = "Computers";
     }
 }
+//triv
