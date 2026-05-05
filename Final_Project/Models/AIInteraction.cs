@@ -26,3 +26,4 @@ namespace Final_Project.Models
         public virtual Material? Material { get; set; }
     }
 }
+// this is ai interaction model which will be used to store the interactions of the users with the ai sessions. it will have the user id, topic id, interaction date and material id (if any). this will help us to track the interactions of the users with the ai sessions and also to analyze the data later on.
