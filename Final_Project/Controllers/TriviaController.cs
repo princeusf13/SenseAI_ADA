@@ -61,3 +61,5 @@ public class TriviaResult
     public string Correct_Answer { get; set; }
     public List<string> Incorrect_Answers { get; set; }
 }
+
+// trivia res

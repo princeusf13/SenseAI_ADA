@@ -21,3 +21,4 @@ namespace Final_Project.Models
         public virtual ICollection<Material>? Materials { get; set; } = new List<Material>();
     }
 }
+// fixes
