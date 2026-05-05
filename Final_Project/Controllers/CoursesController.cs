@@ -124,3 +124,4 @@ namespace Final_Project.Controllers
 
     }
 }
+// Manages course creation, editing, deletion, and quick-add via AJAX for the learning platform.
